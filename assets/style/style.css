@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size:62.5%;
+  --color-primary:#faebd7;
+  --color-secundary:#facf96;
+  --color-third:#fab45a;
+  --color-primary-dark:#462700;
+}
+
+
+body{
+  width: 100%;
+  background-color: var(--color-primary);
+  font-size: 1.7rem;
+}
+
+/*---MENU DE NAVEGAÇÃO---*/
+
+.container-header--nav_ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem 0 1rem;
+  width: 100%; 
+  background-color: var(--color-secundary);
+}
+
+.container-header--nav_ul li{
+  list-style-type: none;
+}
+
+.container-header--nav_ul li a{
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+
+/*---BANNER HOME---*/
+
+.container-header_banner{
+  width: 100%;
+  height: 25rem;
+  background: var(--color-third);
+}
+
+/*---SECTION DAS PLANTAS---*/
+
+.plantas h1{
+text-align: center;
+margin-top:8rem;
+padding-bottom:2rem ;
+}
+
+.plantas_ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 4rem;
+}
+
+.plantas_ul li{
+  list-style-type: none;
+}
+
+/*---SECTION DE SERVIÇOS---*/
+.servicos {
+  text-align: center;
+  margin: 10rem; 
+}
+
+.servicos_ul{
+  display: flex;
+  flex-direction: row;
+  justify-content:center; 
+}
+  
