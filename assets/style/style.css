@@ -134,6 +134,11 @@ font-size: 3rem;
   font-weight: 600;
 }
 
+.plantas img{
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+}
+
 /*---SECTION DE SERVIÇOS---*/
 .servicos {
   text-align: center;
