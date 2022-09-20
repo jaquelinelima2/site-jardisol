@@ -12,44 +12,48 @@
 
     <title>Jardisol</title>
   </head>
-  <body>
+  <body name="home">
     <header class="container-header">
-       <nav class="container-header_nav">
-          <a href="#"></a><img src="./assets/images/JARDISOL-logo-top.png" alt="" class="container-header_img">
-          <ul class="container-header--nav_ul">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Localização</a></li>
-          <li><label for="contato"><button>Contato</button></label></li>
-               </ul>
-       </nav>
+      <nav class="container-header_nav">
+        <img
+          src="./assets/images/JARDISOL-logo-top.png"
+          alt=""
+          class="container-header_img"
+        />
+        <ul class="container-header--nav_ul">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#plantas">Plantas</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li>
+            <label for="contato"><button>Contato</button></label>
+          </li>
+        </ul>
+      </nav>
       <div class="container-header_banner"></div>
     </header>
 
-
     <main class="containerConteudo">
-
       <article class="article-bemVindo">
         <div class="article-bemVindo_div">
-          <h2>
-            Seja bem vindo!
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam libero justo laoreet sit amet. Lorem sed risus ultricies tristique nulla aliquet. </p>
+          <h2>Seja bem vindo!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam
+            libero justo laoreet sit amet. Lorem sed risus ultricies tristique
+            nulla aliquet.
+          </p>
         </div>
-      <img src="./assets/images/jardineira-article-bemvindo.png" alt="">
-         
-
+        <img src="./assets/images/jardineira-article-bemvindo.png" alt="" />
       </article>
 
       <section class="plantas">
-        <h1>Plantas</h1>
+        <h1><a name="plantas"></a>Plantas</h1>
         <ul class="plantas_ul">
           <li>
             <img src="./assets/images/flores-200px.jpg" alt="" />
           </li>
           <li>
             <img src="./assets/images/bonsai03-200px.jpg" alt="" />
-            
           </li>
           <li>
             <img src="./assets/images/sementes03-200px.jpg" alt="" />
@@ -61,10 +65,10 @@
       </section>
 
       <section class="servicos">
-        <h1>Serviços</h1>
+        <h1><a name="servicos"></a>Serviços</h1>
         <ul class="servicos_ul">
           <li>
-            <i class="bx bx-leaf"></i>
+            <i class='bx bxs-florist'></i>
             <h3>Jardinagem</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,7 +79,7 @@
           </li>
 
           <li>
-            <i class="bx bx-leaf"></i>
+            <i class='bx bxs-leaf'></i>
             <h3>Cursos de Plantio</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
@@ -86,7 +90,7 @@
           </li>
 
           <li>
-            <i class="bx bx-leaf"></i>
+            <i class='bx bxs-bug'></i>
             <h3>Eliminação de pragas</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
@@ -103,9 +107,15 @@
     <div class="background-rodape"></div>
 
     <footer class="rodape">
-      <div class="background-rodape"></div>
-      <div class="contato"></div>
-      <div class="localizacao"></div>
+      <div class="rodape-contato">
+        <h3>Entre em contato</h3>
+        <p><i class="bx bx-envelope"></i> jardisolficticio@email.com</p>
+        <p><i class="bx bxl-whatsapp"></i>(11)00000-0000</p>
+      </div>
+      <div class="rodape-localizacao">
+        <h3>Localização</h3>
+        <p><i class="bx bx-envelope"></i> Rua da Jaque, 111 - SP 080010</p>
+      </div>
     </footer>
   </body>
 </html>
